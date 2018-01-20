@@ -1,0 +1,34 @@
+{
+  "name": "@aeaton/react-firebase",
+  "version": "0.0.1",
+  "author": "Alf Eaton <eaton.alf@gmail.com>",
+  "license": "MIT",
+  "main": "dist",
+  "files": [
+    "src",
+    "dist"
+  ],
+  "dependencies": {
+    "firebase": "^4.9.0",
+    "react-redux": "^5.0.6",
+    "redux": "^3.7.2",
+    "redux-thunk": "^2.2.0"
+  },
+  "peerDependencies": {
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "clean-webpack-plugin": "^0.1.17",
+    "webpack": "^3.8.1",
+    "webpack-node-externals": "^1.6.0"
+  },
+  "scripts": {
+    "build": "webpack --progress"
+  }
+}
