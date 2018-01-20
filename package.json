@@ -3,6 +3,7 @@
   "version": "0.0.1",
   "author": "Alf Eaton <eaton.alf@gmail.com>",
   "license": "MIT",
+  "repository": "hubgit/react-firebase",
   "publishConfig": {
     "access": "public"
   },
